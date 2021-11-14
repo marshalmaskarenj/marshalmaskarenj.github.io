@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>420</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #5BC3D2</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>127</width>
+            <height>15</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: #5BC3D2</string>
+          </property>
+          <property name="text">
+           <string>LOCATION</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QComboBox" name="comboBox">
+          <property name="maximumSize">
+           <size>
+            <width>127</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:12px; font-family:Arial; background-color:rgb(32, 47, 64); color:rgb(255,255,255)</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ahmedabad</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Allahabad</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Belgaum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Chennai</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Delhi</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Goa</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Guwahati</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Hyderabad</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Kolkata</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Mumbai</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Pune</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>136</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>-1</pointsize>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size:16px; font-family:Arial; background-color:#5D7B80; color:rgb(255,255,255);border:1px solid #555; border-radius: 7px; hover{background:#e5f1fb}</string>
+         </property>
+         <property name="text">
+          <string>RUN</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>127</width>
+            <height>15</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: #5BC3D2</string>
+          </property>
+          <property name="text">
+           <string>PLOT TYPE</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QComboBox" name="comboBox_2">
+          <property name="maximumSize">
+           <size>
+            <width>127</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:12px; font-family:Arial; background-color:rgb(32, 47, 64); color:rgb(255,255,255)</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>DBT: Dry Bulb Temperature</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ECP: Evaporative Cooling Potential</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ECA: Evaporative Cooling Applicability</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Comfort Achieved: LIG (NV)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Comfort Achieved: MIG (MM)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Comfort Achieved: HIG (AC)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NV-MM Delta</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>IMAC Band - NV</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>IMAC Band - MM</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>IMAC Band - AC</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>1</number>
+      </property>
+      <property name="topMargin">
+       <number>1</number>
+      </property>
+      <property name="rightMargin">
+       <number>1</number>
+      </property>
+      <property name="bottomMargin">
+       <number>1</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QSpinBox" name="spinBox">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:12px; font-family:Arial; background-color:rgb(32, 47, 64); color:rgb(255,255,255)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: #5BC3D2</string>
+          </property>
+          <property name="text">
+           <string>RH RANGE</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBox_2">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:12px; font-family:Arial; background-color:rgb(32, 47, 64); color:rgb(255,255,255)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QSpinBox" name="spinBox_3">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:12px; font-family:Arial; background-color:rgb(32, 47, 64); color:rgb(255,255,255)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>65</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: #5BC3D2</string>
+          </property>
+          <property name="text">
+           <string>DBT RANGE</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBox_4">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:12px; font-family:Arial; background-color:rgb(32, 47, 64); color:rgb(255,255,255)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="MPLWidget" name="MPLwidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>400</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:white; </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>420</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMarshal">
+    <property name="title">
+     <string>Credits</string>
+    </property>
+    <addaction name="actionMarshal_Maskarenj_CEPT_2020"/>
+   </widget>
+   <widget class="QMenu" name="menuHow_to_Use">
+    <property name="title">
+     <string>How to Use</string>
+    </property>
+    <addaction name="actionTutorial"/>
+   </widget>
+   <addaction name="menuMarshal"/>
+   <addaction name="menuHow_to_Use"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMarshal_Maskarenj_CEPT_2020">
+   <property name="text">
+    <string>Marshal Maskarenj, CEPT 2020</string>
+   </property>
+  </action>
+  <action name="actionTutorial">
+   <property name="text">
+    <string>Tutorial</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MPLWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
