@@ -610,6 +610,12 @@
 			background-image: none;
 			background-color: #fff;
 		}
+
+		.wrapper.style1b
+		{
+			background-color: #ddd;
+			color: #000
+		}
 		
 		.wrapper.style2
 		{
