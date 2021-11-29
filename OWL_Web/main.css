@@ -165,6 +165,34 @@ a {
 	border-width: 3px;
 }
 
+.rounded-pp-vid {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 15px;
+	border: dotted;
+	border-color: #4c4c46;
+	border-width: 2px;
+	background:#d8dee7;
+}
+
+.rounded-pp-vid2 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 15px;
+	border: dotted;
+	border-color: #4c4c46;
+	border-width: 2px;
+	background:#e7d8d8;
+}
+
+.shadow-pp-vid {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.5)!important
+}
+
 .rounded-pp {
 	padding-top: 10px;
 	padding-right: 10px;
