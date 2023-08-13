@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AnnuOWL | Tutorial</title>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+    
+	<body>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="#">AnnuOWL</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="download.html">Download</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tutorials.html">Tutorials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="documentation.html">Documentation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/marshalmaskarenj/AnnuOWL">View Code</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="container">
+		  <h1>  </h1>
+		  <p>   </p>
+		  <p>   </p>
+		  <p>   </p>
+		  <p>   </p>
+		  <p>   </p>
+		  
+		  <div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB1 shadow-pp-vid">
+				<h5>1: Overview of AnnuOWL: Introducing OVNI diagrams</h5>
+				<p>AnnuOWL is our Annual simulation workflow based on Radiance grid-based simulation approach. Supported by 64 original Grasshopper Python components, AnnuOWL can support lighting and facade designers by providing an annual understanding of the entire space's lighting performance, for visual and non-visual aspects. Occupant-centered metrics are visualised via an intuitive visualisation proposed to be called as OVNI <i>(Occupant Visual and Non-visual Illumination)</i> diagrams, which are designed to look like <a href="https://en.wikipedia.org/wiki/Unidentified_flying_object">UFOs</a>. For each OVNI, the hemisphere indicates performance for daylight provision, and surrounding rings indicate 1) non-visual/circadian potential, 2) protection from discomfort glare, and 3) satisfaction via view quality <i>(not yet incorporated)</i>.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB1 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IIy9eUxYMFg"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB2 shadow-pp-vid">
+				<h5>2: Installation procedure and background settings</h5>
+				<p><i>This part of the tutorial series presents the installaton procedure (Python, Radance, Ladybug tools, GH_Cpython) required by AnnuOWL to function. It also presents a background setting in Rhino for exporting OBJ files, as required by one component for function appropriately.</i> <br>1. Python 2.7 can be downloaded <a href="https://www.python.org/downloads/release/python-2718/">here.</a>.<br>2. Using Pip, install: numpy, scipy, and matplotlib...<br>3. Radiance is available <a href="https://github.com/LBNL-ETA/Radiance/releases">here.</a>, needs to be added to Path.<br>4. Latest Ladybug 1.x can be downloaded <a href="https://www.food4rhino.com/en/app/ladybug-tools">here </a> (latest is 1.6 as of this day).<br>5. GH_Cpython component can be downloaded in a zip file from <a href="https://www.food4rhino.com/en/app/ghcpython">here.</a><br>6. Settings in rhino for exporting OBJs by unchecking the remapping function.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB2 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g8jR4hdwo5Q"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB3 shadow-pp-vid">
+				<h5>3: Describing Grasshopper workflow with original components</h5>
+				<p>This part of the tutorial series presents the structure of the zip file available for <a href="download.html">download</a>, along with an overview of the grasshopper workflow.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB3 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LqLgTw117MU"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB4 shadow-pp-vid">
+				<h5>4: Testing workflow with a pre-simulated case</h5>
+				<p>In this part, a pre-simulated case <i>(of the 4 cases provided in the zip file)</i> is used to demonstrate the functioning of the workflow. A basic overview of sliders is presented.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB4 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GXeEZunvigs"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB5 shadow-pp-vid">
+			  <h5>5: Grid-based analysis with pre-simulated cases</h5>
+				<p>An in-depth run-through of grid-based space-centered analysis is presented, while using pre-simulated case data. Use of panel and slider inputs is demonstrated.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB5 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2ZJ_HJh5spk"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB6 shadow-pp-vid">
+				<h5>6: OVNI based analysis with pre-simulated cases</h5>
+				<p> A detailed run-through pf OVNI-based occupant-centered analysis is presented, using pre-simulated case data. The logical flow used in the evaluation of OVNI-visualised metrics is also presented.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB6 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y0FkBno96B8"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB7 shadow-pp-vid">
+				<h5>7: Recalculation through revised user inputs</h5>
+				<p>For OVNI- and grid-based metrics, the use of panels and sliders for modifying user-inputs and customising the evaluation criteria is demonstrated. This could be useful while evaluating standards other than default EN17037, and may also be useful while evaluating future updates of the standards.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB7 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u-6L04RC_VE"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB8 shadow-pp-vid">
+				<h5>8: Performing live simulations</h5>
+				<p>Previous parts of the tutorial series used pre-simulated (cached) data for demonstrating various possibilities of AnnuOWL. Performing live simulations <i>(by changing the "Cached?" in section 1.1.2 of the workflow, to False)</i> is demonstrated in this part. Grid- and OVNI-based evaluations are discussed for various grid positions and for different occupant viewing positions.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB8 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k6xY7CAVpxo"></iframe>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <p> </p> <p> </p> <p> </p> <p> </p> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB9 shadow-pp-vid">
+				<h5>9: Incorporating and analysing user geometry</h5>
+				<p>In the previous video demonstrating live simulation, a template geometry provided with the workflow is used for the evaluation. In this part, the process for incorporating original geometry layers is demonstrated. </p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rounded-pp-vidRGB9 shadow-pp-vid">
+			  <div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pvgsWb1Nmj0"></iframe>
+			  </div>
+			</div>
+		  </div>
+		  <p>       </p>
+		</div>
+		
+		
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">AnnuOWL: Annual Evaluation of Occupant Wellbeing through Lighting</h6>
+						<p>AnnuOWL is developed by <a href="https://www.linkedin.com/in/marshal-maskarenj">Marshal Maskarenj</a> and <a href="https://www.linkedin.com/in/sergio-altomonte-81341b4/">Sergio Altomonte</a> at <a href="https://uclouvain.be/fr/facultes/loci">LAB/LOCI UCLouvain</a>; as part of the <a href="https://www.frs-fnrs.be/en/">FNRS</a> funded project SCALE (Shading Control Algorithms from Luminance-based Evaluations).</p>
+						<p>AnnuOWL is an opensource workflow in Rhino Grasshopper developed for performing annual evaluation of lighting performance for a built environment. The evaluated performance integrating established metrics of occupant comfort, satisfaction, health and wellbeing, along with the lighting energy use, are displayed using the intuitive OVNI diagrams.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>LAB, Place du Levant 1/L5.05.04, 
+					<br/>1348 Louvain-la-Neuve, Belgium
+					<br/>sergio.altomonte@uclouvain.be 
+					<br/>maskarenj.marshal@uclouvain.be
+					<br/>+32 10 47 21 39
+					<br/>+32 495 14 44 46</p>
+				</div>
+			<div>
+			<div class="footer-copyright text-center">© 2023 UCLouvain</div>
+		</footer>
+		
+		
+		<script src="main.js"></script>
+	</body>
+	
+	
+</html>
