@@ -38,10 +38,6 @@ a {
     position: relative;
 }
 
-.headerht {
-	height: 1100px !important;
-}	
-
 .overlay {
     position: absolute;
     min-height: 100%;
@@ -338,15 +334,6 @@ a {
 	font-size: large;
 }
 
-@media (max-width: 1200px) {
-	.rounded-pp {
-		height: 400px;
-	}
-	.rounded-pp2 {
-		height: 320px;
-	}
-}
-
 @media (max-width: 996px) {
 	.team .card-title {
 		font-size: 0;
@@ -360,11 +347,11 @@ a {
 		text-transform: uppercase;
 	}	
 	.rounded-pp {
-		height: 450px;
+		height: 350px;
 	}
 
 	.rounded-pp2 {
-		height: 420px;
+		height: 350px;
 	}
 	
 	.description {
@@ -377,6 +364,24 @@ a {
     }
 	
 }
+
+@media (max-width: 721px) {
+	.rounded-pp {
+		height: 450px;
+	}
+	.rounded-pp2 {
+		height: 250px;
+	}
+}	
+
+@media (max-width: 361px) {
+	.rounded-pp {
+		height: 800px;
+	}
+	.description p {
+        font-size: 0.8rem;
+    }
+}	
 
 @media (max-width: 775px) {
     .description {
@@ -401,49 +406,10 @@ a {
     }
 	
 	.rounded-pp {
-		height: 570px;
-	}
-
-	.rounded-pp2 {
-		height: 270px;
-	}	
-
-}
-
-@media (max-width: 721px) {
-	.rounded-pp {
-		height: 570px;
-	}
-	.rounded-pp2 {
-		height: 270px;
-	}
-}	
-
-@media (max-width: 361px) {
-	.rounded-pp {
-		height: 800px;
-	}
-	.rounded-pp2 {
-		height: 270px;
-	}
-}	
-
-
-@media (max-width: 361px) {
-	.rounded-pp {
-		height: 800px;
+		height: 350px;
 	}
 	
-	.description p {
-        font-size: 0.8rem;
-    }
-}	
 
-
-@media (max-width: 275px) {
-	.rounded-pp {
-		height: 700px;
-	}
 }
 
 @media (max-width: 575.98px) {
@@ -473,10 +439,8 @@ a {
     }
 	
 	.rounded-pp {
-		height: 570px;
+		height: 550px;
 	}
-	.rounded-pp2 {
-		height: 320px;
-	}
-}
+	
 
+}
