@@ -473,10 +473,10 @@ a {
     }
 	
 	.rounded-pp {
-		height: 570px;
+		height: 770px; /* this was 570 earlier, and the pp2 was 320*/
 	}
 	.rounded-pp2 {
-		height: 320px;
+		height: 420px;
 	}
 }
 
